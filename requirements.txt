@@ -1,0 +1,10 @@
+# Tested ExoJAX source revision; no ExoJAX modifications are required.
+ExoJAX @ git+https://github.com/HajimeKawahara/exojax.git@19fe37b5509d931e6fb85bcd731be60877751544
+numpy==2.1.0
+scipy==1.17.1
+jax==0.10.0
+jaxlib==0.10.0
+h5py==3.13.0
+astropy==7.0.1
+matplotlib==3.10.1
+hitran-api==1.2.2.3

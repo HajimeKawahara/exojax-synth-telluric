@@ -1,0 +1,27 @@
+{
+  "finite_code_multiplier": {
+    "strength": {
+      "H2O": 10.0,
+      "CO2": 10.0,
+      "default": 1.0
+    },
+    "gamma_air": {
+      "H2O": 3.0,
+      "default": 1.0
+    },
+    "gamma_self": {
+      "default": 1.0
+    }
+  },
+  "unknown_uncertainty_cv": 0.5,
+  "distribution": "Mean-one lognormal; finite HITRAN class upper edge times multiplier is the coefficient of variation.",
+  "calibration_orders": [
+    13,
+    34,
+    40
+  ],
+  "excluded_order": 7,
+  "leakage_scope": "Aggregate augmentation scales informed by other orders of the same target/night; not a blind external prior. No fitted individual line corrections are included.",
+  "interpretation": "Effective corrections can include stellar, instrumental, atmospheric and blending errors; not measurements of true molecular-constant errors.",
+  "reference": "https://www.hitran.org/docs/uncertainties/"
+}

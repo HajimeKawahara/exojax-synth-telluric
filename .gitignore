@@ -218,3 +218,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Synthetic spectra and downloaded model assets
+cache/
+results/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+*.py[cod]
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.par
+*.fits
+*.log
+prior_assessment.json
+uncertainty_check.json
+physics_validation*.json
+wing_validation.json
